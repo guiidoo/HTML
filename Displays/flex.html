@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Display Flex</title>
+    <style>
+        .pai{
+            display: flex;
+            /*flex-direction: center;*/
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .filha{
+            /*margin: auto;*/
+            width: 200px;
+            height: 200px;
+            border: 1px solid #000;
+            background-color: rgb(219, 218, 218);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Display</h1>
+    <h2>Flex</h2>
+    <div class="pai">
+        <div class="filha">Item 1</div>
+        <div class="filha">Item 2</div>
+        <div class="filha">Item 3</div>
+        <div class="filha">Item 4</div>
+        <div class="filha">Item 5</div>
+        <div class="filha">Item 6</div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+/*Trabalhando com os multiplos seletores*/
+h1, h2, h3{
+    background-color: rgba(0,0,255, 0.3);
+    padding: 5px;
+    font-family: cursive;
+    text-align: center;
+    width: 500px;
+}
+img{
+    width: 500px;
+    border: solid 5px red;
+}
+p{
+    width: 500px;
+    text-align: justify;
+    font-family: verdana, arial, sans-serif;
+}
+h1, h2, h3, img {border-radius: 5px;}
+a{
+    background-color: #0b2555 ;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 15px;
+    border: solid crimson 2px;
+    margin: 30px;
+}
+
+/* Comportamento de link a ser clicado */
+a:link{
+    color: #6cff00;
+}
+/* Comportamento de link depois de clicado */
+a:visited{
+    color: #000;
+    background-color: yellow;
+}
+/* Comportamento de link passar sobre  */
+a:hover{
+    background-color: chartreuse;
+    color: blue;
+}
+/* comportamento de link quando está ativo */
+a:active{
+background-color: #fc0e0e;
+color: blue;
+}
