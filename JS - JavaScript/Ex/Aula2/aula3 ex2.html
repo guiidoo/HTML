@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let dataAtual= new Date()
+        //Date() é um objeto
+        //new cria uma instância (cópia) na memória ram
+        let anoAtual=dataAtual.getFullYear()
+        //getFullYear() é um método
+        let mesAtual=dataAtual.getMonth()+1
+        let horaAtual=dataAtual.getHours()
+        let minutoAtual=dataAtual.getMinutes()
+        let diaSemanaAtual=dataAtual.getDay()
+        document.write("Ano atual ="+anoAtual+"<br>")
+        document.write("Mês atual ="+mesAtual+"<br>")
+        document.write("Hora atual ="+horaAtual+"<br>")
+        document.write("Minuto atual ="+minutoAtual+"<br>")
+        document.write("Dia da semana="+diaSemanaAtual+"<br>")
+         
+
+
+    </script>
+    
+</body>
+</html>

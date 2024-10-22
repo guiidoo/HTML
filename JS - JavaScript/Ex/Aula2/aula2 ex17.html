@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #resultado{background-color: rgb(110, 109, 107);}
+    </style>
+</head>
+<body>
+    <script>
+        let nota1, nota2, media
+        nota1=Number(prompt("Informe a nota 1"))
+        nota2=Number(prompt("Informe a nota 2"))
+        media=(nota1+nota2)/2
+        if(media>=6)
+        { 
+            document.write(`O aluno foi <span id="resultado" style="color:blue;">aprovado</span> com média ${media.toFixed(1)}`)  
+        }
+        else {
+            document.write(`O aluno foi <span style="color:red;">reprovado</span> com média ${media.toFixed(1)}`)
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Calcular a media de 2 notas e classificar o aluno como aprovado (media acima de 6.9), reprovado (abaixo de 4), recuperação (entre 4 e 6.9) -->
+
+    <script>
+        let nota1, nota2, media
+
+        nota1=Number(prompt("Escreva a 1ª Nota do aluno: "))
+        nota2=Number(prompt("Escreva a 2ª Nota  do aluno: "))
+
+        media=(nota1+nota2)/2
+
+
+        if(media>=6.9)
+        {
+            document.write(`O Aluno esta aprovado com a nota de ${media}`)
+        }
+        else if(media>=4 && media<=6.9)
+        {
+            document.write(`O Aluno esta de recuperação com a nota de ${media}`)
+        }
+        else
+        {
+            
+            document.write(`O Aluno esta de reprovado com a nota de ${media}`)
+        }
+    </script>
+</body>
+</html>

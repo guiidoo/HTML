@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 5</title>
+</head>
+<body>
+    <p>Crie um programa onde voce pedirá ao usuario que digite 2 numeros e apresente: a soma, subtração, divisão e multiplicação. Apresente no modo onde as variaveis ficam embutidas na string
+
+    </p>
+    <script>
+        let num1, num2, soma, multi, sub, divi
+    num1=Number(prompt("Digite um número:"))
+    num2=Number(prompt("Digite um número:"))
+
+    soma=num1+num2
+    sub=num1-num2
+    multi=num1*num2
+    divi=num1/num2
+    // Podemos usar direto no document.write
+    document.write(`Os numeros digitados: ${num1} e ${num2}`)
+    document.write(`<br>Soma ${soma} <br>Subtração ${sub} <br>Multiplicação ${multi} <br>Divisão ${divi}`)
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+50)Escreva um programa para imprimir os números de 1 (inclusive) a 10 (inclusive) em ordem crescente. 
+--------------
+51) Escreva um programa para imprimir os números de 1 (inclusive) a 10 (inclusive) em ordem decrescente. 10 - 9 - 8 - 7 - 6
+-----------
+52) Escreva um programa para imprimir os 10 primeiros números inteiros maiores que 100. 
+--------------
+53) Receber do usuário um valor N e imprimir todos os valores inteiros entre 1 (inclusive) e N (inclusive). Considere que o N será sempre maior que ZERO.
+-------------
+54) Imprimir a tabuada do 8 da seguinte forma:
+8 x 1 = 8
+8 x 2 = 16
+...
+8 x 10 =80
+-------------------------
+1) Um novo modelo de carro, super econômico foi lançado.
+Ele faz 20 km com 1 litro de combustível.
+Cada litro de combustível custa R$ 5,00.
+
+Faça um programa que pergunte ao usuário quanto de dinheiro ele tem e em seguida diga quantos litros de combustível ele pode comprar e quantos kilometros o carro consegue andar com este tanto de combustível.
+
+Seu script será usado no computador de bordo do carro.
+--------------------
+2) Desenvolva um programa imprime na tela os números entre 7 e 1000 que tem resto 3 quando divididos por 7.
+--------------------
+3)Faça um algoritmo que conte de 1 a 100 e a cada múltiplo de 10 emita uma mensagem: “Múltiplo de 10: <número>”.
+----------------------
+4)Crie um algoritmo em que, dada a tabela a seguir, calcula e exibe na tela o valor de desconto a ser concedido para um determinado cliente, de acordo com o valor da compra. O algoritmo deverá receber pelo teclado o nome do cliente e o valor total da compra:
+Valor da Compra	                     % de Desconto
+Abaixo de R$ 1.000,00	                  5
+Entre R$ 1.000,00 a R$ 5.000,00	          10
+Acima de R$ 5.000,00                      15
+
+

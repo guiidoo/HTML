@@ -1,0 +1,8 @@
+6)Criar um programa que peça ao usuário que digite um número. Calcular e mostrar o seu sucessor e o seu antecessor.
+10 antecessor 9
+sucessor 11
+
+7)Criar um programa que peça ao usuário que digite um número. Calcular e mostrar a raiz quadrada do número. biblioteca matemática: Math.sqrt(variável)  
+sqrt = square root (quadrado raiz)
+
+8)Criar um programa que peça ao usuário que digite 2 números. Calcular e mostrar o n1 elevado ao n2. Biblioteca matemática. Math.pow(n1,n2)
