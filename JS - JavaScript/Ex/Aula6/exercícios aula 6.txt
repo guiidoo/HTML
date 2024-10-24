@@ -1,0 +1,38 @@
+1)Escreva um programa	 que	 verifique a validade	 de	 uma	 senha	 fornecida pelo	 usuário. A	 senha	 válida	 é	 o	 número	 1234.	Devem	 ser	impressas	 as	
+seguintes mensagens:	
+ACESSO	PERMITIDO caso a senha	seja	válida.	
+ACESSO	NEGADO	caso a senha seja inválida.
+---------------
+2) Tendo como	 entrada a altura  e	 o	 sexo	 (codificado	 da	 seguinte	 forma:	
+1:feminino	 	 2:masculino)	 de	 uma	 pessoa,	 construa	 um	 programa	 que	
+calcule	e	imprima	seu	peso	ideal,	utilizando	as	seguintes	
+Fórmulas:	
+- para	homens:	(72.7	*	Altura)	– 58	
+- para	mulheres:	(62.1	*	Altura)	– 44.7	
+-----
+3)Faça um programa que peça dois números e verifique (usando if e else) e imprima o maior deles  
+--------------
+4)Faça um programa que verifique (usando if e else) se uma letra digitada é “F” ou “M”. Conforme a letra escrever: F – Feminino, M- Masculino, Outros. 
+-------------
+5)Faça um programa para a leitura de duas notas parciais de um aluno.  
+
+A mensagem “Aprovado”, se a média alcançada for maior ou igual a sete;
+A mensagem “Aprovado com Distinção”, se a média for igual a dez;
+A mensagem “Reprovado” se a média for menor do que sete; 
+----------------
+6)Faça um programa que pergunte em que turno você estuda. Peça para digitar M-matutino ou V-vespertino ou N-noturno. Imprima a mensagem “Bom dia!” ou  "Boa tarde" ou “Boa Noite” ou “Valor inválido”, conforme o caso.   switch case
+---------------
+7) As organizações CSM resolveram dar um aumento de salário aos seus colaboradores que foram contratados para desenvolver o programa que calculará os reajustes.  
+
+a. Faça um programa que recebe o salário de um colaborador;
+b. Salários até R$ 280,00 (incluindo): aumento de 20%;
+c. Salários entre R$ 280,00 e R$700,00: aumento de 15%;
+d. Salários entre R$ 700,00 e R$ 1500,00: aumento de 10%;
+e. Salários de R$ 1500,00 em diante: aumento de 5%
+
+Após o aumento ser realizado; informe na tela;
+
+a. O salário antes do reajuste;
+b. O percentual de aumento aplicado;
+c. O valor do aumento;
+d. O novo salário, após o aumento.  

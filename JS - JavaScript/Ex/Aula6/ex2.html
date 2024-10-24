@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let sex, alt
+        sex=prompt("Digite seu sexo(M-F): ")
+        alt=Number(prompt("Digite sua altura: "))
+
+        if(sex=="M" || sex=="m"){
+            document.write(`Seu peso ideal sendo homem deve ser, ${(72.7* alt)-58} `)
+        }
+        else if(sex=="F" || sex=="f"){
+            document.write(`Seu peso ideal sendo mulher deve ser, ${(62.1* alt)-44.7}`)
+        }
+        else{
+            document.write("Inválido")
+        }
+    </script>
+</body>
+</html>

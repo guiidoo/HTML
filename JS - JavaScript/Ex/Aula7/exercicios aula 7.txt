@@ -1,0 +1,14 @@
+70)Escreva um programa para imprimir os números de 1 (inclusive) a 10 (inclusive) em ordem crescente. 
+--------------
+71) Escreva um programa para imprimir os números de 1 (inclusive) a 10 (inclusive) em ordem decrescente. 10 - 9 - 8 - 7 - 6
+-----------
+72) Escreva um programa para imprimir os 10 primeiros números inteiros maiores que 100. 
+--------------
+73) Receber do usuário um valor N e imprimir todos os valores inteiros entre 1 (inclusive) e N (inclusive). Considere que o N será sempre maior que ZERO.
+-------------
+74) Imprimir a tabuada de qualquer número fornecido pelo usuário, da seguinte forma:
+8 x 1 = 8
+8 x 2 = 16
+...
+8 x 10 =80
+

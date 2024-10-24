@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let turn
+        turn=prompt("Qual turno você estuda ? (M-V-N) ")
+
+        if(turn=="M" || turn=="m"){
+            document.write(`Matutino - Bom Dia !!!`)
+        }
+        else if(turn=="F" || turn=="f"){
+            document.write(`Vespertino - Boa Tarde !!!`)
+        }
+        else if(turn=="N" || turn=="n"){
+            document.write(`Noturno - Boa Noite !!!`)
+        }
+        else{
+            document.write("Inválido")
+        }
+    </script>
+</body>
+</html>
