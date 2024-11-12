@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //segundo o diagrama de Chapin
+        let maiores=0, soma_total=0,media
+        let notas=[]
+        for (let i=0;i<20;i++)
+        {
+            //fizemos desta forma para facilitar nossos testes.Quando for para produção teremos que retirar estes números aleatórios e colocar o comando que esta abaixo.
+            // notas[i]=Number(prompt("Informe a nota"))
+            notas[i]=Math.floor(Math.random()*10)
+            soma_total=soma_total+notas[i]
+        }
+        media=soma_total/20
+        for (let i=0;i<=19;i++)
+        {
+            if (notas[i]>media)
+            {
+                maiores=maiores+1
+            }
+        }   //fim do for
+        document.write(`A média geral da turma foi = ${media}<br>Alunos com nota acima da média = ${maiores}<br>Veja as notas: ${notas}`)
+       
+    </script>
+    
+</body>
+</html>

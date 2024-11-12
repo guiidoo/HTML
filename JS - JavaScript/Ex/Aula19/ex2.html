@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js">
+
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>Animação</button>
+<br><br>
+    <div style="background-color: chartreuse; height: 100px; width:100px;position: absolute;"></div>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("div").animate({left:"250px"})
+            })
+        })
+    </script>
+
+</body>
+</html>

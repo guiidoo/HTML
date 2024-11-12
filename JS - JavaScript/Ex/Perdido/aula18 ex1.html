@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>jQuery</title>
+</head>
+
+<body>
+    <button id="esconde">Esconder</button>
+    <button class="mostra">Mostrar</button>
+    <button id="escondemostra">Esconder/Mostrar</button>
+    <button id="trocacor">Troca cor</button>
+
+    <div id="instrucao">
+        <p>jQuery --> bibloteca do javascript</p>
+        <p>Escreva menos e faça mais</p>
+        <h3>Sintaxe:</h3>
+        <h2>$(seletor).evento(função)</h2>
+        <p>$ substitui a palavra jQuery</p>
+        <p>seletores: por elemento: h2, p, li</p>
+        <p>seletores de id #texto</p>
+        <p>seletores de classe .texto</p>
+    </div>
+    <script>
+        // se o documento está totalmente carregado--> document
+        // $(document).ready(function () {
+        //     $("p").click(function() {
+        //         $(this).hide();
+        //     })
+        // });
+
+        // $(document).ready(function () {
+        //     $("#instrucao").dblclick(function (){
+        //         //$(this).hide();
+        //         //3000 milisegundos = 3 s
+        //         //slow / fast
+        //         $("#instrucao").hide("fast")
+        //     })
+        // })
+
+        $(document).ready(function () {
+            $("#esconde").click(function () {
+                $("#instrucao").hide(4000)
+            })
+        })
+        //   ---------------------------------
+        $(document).ready(function () {
+            $(".mostra").click(function () {
+                $("#instrucao").show()
+            })
+        })
+        //----------------------------     
+        $(document).ready(function () {
+            $("#escondemostra").click(function () {
+                $("#instrucao").toggle(2000)
+            })
+        })
+        //---------------------------
+        $(document).ready(function () {
+            $("#trocacor").hover(function () {
+                $("h2").css("color", "orange")
+                $("h3").css("color", "green")
+                $("p").css({ "color": "blue", "font-size": "20px", "font-family": "Lucida Console" })
+            })
+        })
+        //-------------------------------
+        $(document).ready(function () {
+            $("#trocacor").mouseleave(function () {
+                $("*").css({"color": "black", "font-family" : "Times New Roman"})
+
+            })
+        })
+
+    </script>
+
+</body>
+
+</html>

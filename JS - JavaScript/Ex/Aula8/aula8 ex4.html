@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num, maior=0, menor=9999
+        for (let i=1; i<=1000; i++)
+        {   //Math.ceil()  arredonda para cima
+            //Math.floor() arredonda para baixo
+            num=Math.floor((Math.random()*10000))
+           // document.write(num+"<br>")
+            if(num>maior)
+            {
+                maior=num
+            }
+            if (num<menor)
+            {
+                menor=num
+            }
+        }
+        document.write("Maior número: "+maior+"<br>")
+        document.write("Menor número: "+menor+"<br>")
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function inver(num) {
+            var inverso = 0;
+            while (num != 0) {
+                inverso = inverso * 10;
+                inverso = inverso + num % 10;
+                num = Math.trunc(num / 10);
+            }
+            return inverso
+        }
+        let num=Number(prompt("Digite o número: "))
+        let troca=inver(num)
+        document.write(troca)
+    </script>
+</body>
+
+</html>

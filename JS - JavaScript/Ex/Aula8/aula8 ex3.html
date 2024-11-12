@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n1,n2,n3,maior,meio,menor
+        n1=Number(prompt("N1"))
+        n2=Number(prompt("N2"))
+        n3=Number(prompt("N3"))
+
+        if (n1>n2 && n1>n3)
+        {
+            maior=n1    
+            if(n2>n3)
+            {
+                meio=n2
+                menor=n3
+            }
+            else
+            {
+                meio=n3
+                menor=n2
+            }
+        }
+        if (n2>n1 && n2>n3)
+        {
+            maior=n2
+            if (n1>n3)
+            {
+                meio=n1
+                menor=n3
+            }
+            else
+            {
+                meio=n3
+                menor=n1
+            }
+        }
+        if (n3>n1 && n3>n2)
+        {
+            maior=n3
+            if(n1>n2)
+            {
+                meio=n1
+                menor=n2
+            }
+            else
+            {
+                meio=n2
+                menor=n1
+            }
+        }
+        document.write(`Ordem crescente: ${menor} - ${meio} - ${maior}<br> `)
+        document.write(`Ordem decrescente: ${maior} - ${meio} - ${menor}`)
+    </script>
+    
+</body>
+</html>

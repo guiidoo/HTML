@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let cores=["azul", "amarelo","verde","vermelho"]
+        //posições 4
+        //indice: 0 ---> 3
+        document.write(cores[0]+"<br>")
+        document.write(cores[3]+"<br>")
+        document.write(cores[2]+"<br><br>")
+        //estrutura de repetiçã
+        
+        cores[2]="violeta"
+        for(let i=0;i<=3;i++)
+        {
+            document.write(cores[i]+"<br><br>")
+        }
+        cores.push("rosa", "lilas", "branco")
+        cores.pop() // apaga o ultimo
+        cores.sort() //Ordem alfabetica
+        cores.reverse() 
+        for(let i=0;i<=cores.length-1;i++)
+        {
+            document.write(cores[i]+"<br>")
+        }
+        //tamanho do vetor
+        document.write("<br>O Tamanho de opções de cores são: "+cores.length)
+    </script>
+</body>
+</html>

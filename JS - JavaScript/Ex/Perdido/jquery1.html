@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+
+</head>
+<body>
+    <p>Clique aqui</p>
+
+    <div id="caixa">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae consequatur porro eveniet dolores veniam recusandae omnis repellendus quam eum. Veritatis nesciunt ut dolorem dolore reprehenderit nostrum consequuntur veniam. Quo, aspernatur?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae consequatur porro eveniet dolores veniam recusandae
+            omnis repellendus quam eum. Veritatis nesciunt ut dolorem dolore reprehenderit nostrum consequuntur veniam. Quo,
+            aspernatur?</p>
+        <div id="conteudo">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae consequatur porro eveniet dolores veniam recusandae
+                        omnis repellendus quam eum. Veritatis nesciunt ut dolorem dolore reprehenderit nostrum consequuntur veniam. Quo,
+                        aspernatur?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae consequatur porro eveniet dolores veniam recusandae
+                            omnis repellendus quam eum. Veritatis nesciunt ut dolorem dolore reprehenderit nostrum consequuntur veniam. Quo,
+                            aspernatur?</p>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+                $("p").click(function () {
+                    $(this).hide();
+                });
+
+
+                $("#conteudo").click(function () {
+                $("#conteudo").hide();
+            });
+
+            $("#conteudo").click(function () {
+                $("p").show();
+            });
+            });
+
+
+    </script>
+   
+</body>
+</html>

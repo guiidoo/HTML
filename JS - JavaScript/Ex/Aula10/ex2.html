@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números em Ordem Inversa</title>
+</head>
+<body>
+    <h1>Ler 20 Números e Mostrar na Ordem Inversa</h1>
+    <button onclick="lerNumeros()">Ler Números</button>
+
+    <script>
+        function lerNumeros() {
+            const numeros = [];
+            const totalNumeros = 20;
+
+            for (let i = 0; i < totalNumeros; i++) {
+                let numero = parseFloat(prompt(`Digite o número ${i + 1}:`));
+                while (isNaN(numero)) {
+                    numero = parseFloat(prompt(`Entrada inválida! Digite o número ${i + 1}:`));
+                }
+                numeros.push(numero);
+            }
+
+            let resultado = "Números em ordem inversa:\n";
+            for (let i = totalNumeros - 1; i >= 0; i--) {
+                resultado += numeros[i] + "\n";
+            }
+
+            alert(resultado);
+        }
+    </script>
+</body>
+</html>

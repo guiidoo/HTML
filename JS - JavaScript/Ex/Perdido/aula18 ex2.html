@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.1.min.js">
+        
+    </script>
+</head>
+<body>
+    <button>Clique aqui</button>
+    <br><br>
+    <div id="div1" style="width:80px; height:80px; background-color:red;"></div><br>
+    <div id="div2" style="width:80px; height:80px; background-color:green;"></div><br>
+    <div id="div3" style="width:80px; height:80px; background-color:blue;"></div>
+
+    <div id=""> </div>
+
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("#div1").fadeTo(2000, 0.17)
+                $("#div2").fadeOut(2000)
+                $("#div3").fadeToggle(3000)
+            })
+        })
+    </script>
+</body>
+</html>
