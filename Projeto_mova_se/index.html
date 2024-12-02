@@ -79,28 +79,70 @@
             </p>
         </aside>
 
-        <article class="card">
-            <h2 class="titulo">Pacotes</h2>
-            <p>Veja os pacotes disponíveis:</p>
-            <div class="card-conteudo">
-                <figure>
-                    <a href="#"><img src="imagem/capa-terrestre.jpg" alt="Terrestre"></a>
-                    <figcaption>terrestre</figcaption>
-                </figure>
-                <figure>
-                    <a href="#"><img src="imagem/escalada.jpg" alt="Escalada"></a>
-                    <figcaption>escalada</figcaption>
-                </figure>
-                <figure>
-                    <a href="#"><img src="imagem/rafting.jpg" alt="rafting"></a>
-                    <figcaption>rafting</figcaption>
-                </figure>
-                <figure>
-                    <a href="#"><img src="imagem/asa-delta.jpg" alt="aéreo"></a>
-                    <figcaption>aéreo</figcaption>
-                </figure>
-            </div>
-        </article>
+<article class="card">
+    <h2 class="titulo">Pacotes</h2>
+    <p>Veja os pacotes disponíveis:</p>
+    <div class="card-conteudo">
+        <!-- Card 1 -->
+        <figure>
+            <a href="javascript:void(0);" onclick="openModal('modal1')"><img src="imagem/capa-terrestre.jpg" alt="Terrestre"></a>
+            <figcaption>terrestre</figcaption>
+        </figure>
+
+        <!-- Card 2 -->
+        <figure>
+            <a href="javascript:void(0);" onclick="openModal('modal2')"><img src="imagem/escalada.jpg" alt="Escalada"></a>
+            <figcaption>escalada</figcaption>
+        </figure>
+
+        <!-- Card 3 -->
+        <figure>
+            <a href="javascript:void(0);" onclick="openModal('modal3')"><img src="imagem/rafting.jpg" alt="rafting"></a>
+            <figcaption>rafting</figcaption>
+        </figure>
+
+        <!-- Card 4 -->
+        <figure>
+            <a href="javascript:void(0);" onclick="openModal('modal4')"><img src="imagem/asa-delta.jpg" alt="aéreo"></a>
+            <figcaption>aéreo</figcaption>
+        </figure>
+    </div>
+</article>
+
+<!-- Modal -->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal1')">&times;</span>
+        <h2>Pacote Terrestre</h2>
+        <p>Detalhes sobre o pacote terrestre...</p>
+    </div>
+</div>
+
+<div id="modal2" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal2')">&times;</span>
+        <h2>Pacote Escalada</h2>
+        <p>Detalhes sobre o pacote de escalada...</p>
+    </div>
+</div>
+
+<div id="modal3" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal3')">&times;</span>
+        <h2>Pacote Rafting</h2>
+        <p>Detalhes sobre o pacote de rafting...</p>
+    </div>
+</div>
+
+<div id="modal4" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal4')">&times;</span>
+        <h2>Pacote Aéreo</h2>
+        <p>Detalhes sobre o pacote aéreo...</p>
+    </div>
+</div>
+
+
 
         <article>
             <div id="video">
@@ -154,6 +196,8 @@
     <script src="js/jquery-3.7.0.min.js"></script>
     <script src="slick/slick.min.js"></script>
     <script src="js/interacao.js"></script>
+    <script src="js/modal.js"></script>
+    
 
     <script>
         /*$(document).ready(function () {

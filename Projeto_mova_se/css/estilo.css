@@ -160,6 +160,8 @@ li {
     box-sizing: grey 1px 1px 5px;
 }
 
+
+
 .conteudo h2,
 .conteudo h3,
 .conteudo p {
@@ -175,9 +177,72 @@ li {
 
 /* home */
 
+.destaque {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
 .destaque img {
     border-bottom: dotted #ED6D19 5px;
+    margin-right: 10px;
+    width: 100%;     
+    height: 300px;  
+    object-fit: cover;   
 }
+
+
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Centralizando o conteúdo do modal */
+.modal-content {
+    background-color: #fefefe;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*mobile */
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+/* X */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #aaa;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+}
+
 
 .text-destaque {
     position: relative;
@@ -189,7 +254,6 @@ li {
 }
 
 .text-destaque h2 {
-    /* o !important friza o efeito aplicado, cancelando todos os outros. */
     color: #000 !important;
     margin-top: 5px;
     padding: 5px 0 3px 50px;
@@ -270,7 +334,7 @@ iframe {
     padding: 2% 0;
 }
 
-/* Regras para contato*/
+/*Contato*/
 
 #form-contato {
     margin: auto;
@@ -293,7 +357,7 @@ iframe {
     font-weight: bold;
 }
 
-/* Regras para os botões do contato */
+/* botões do contato */
 
 #form-contato button:hover,
 #form-contato button:focus {
@@ -472,6 +536,7 @@ iframe {
     .conteudo {
         margin-top: 90px;
     }
+
 
     .rodape-conteudo {
         display: flex;
